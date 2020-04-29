@@ -32,7 +32,7 @@
     background: rgb(77, 167, 129);
     position: relative;
     animation-name: mymove;
-    animation-duration: 5s;
+    animation-duration: 15s;
 }
 
 @keyframes mymove {
