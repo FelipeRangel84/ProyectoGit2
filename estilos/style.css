@@ -29,7 +29,7 @@
 .animacion {
     width: 500px;
     height: 100px;
-    background: rgb(77, 167, 129);
+    background: rgb(109, 145, 80);
     position: relative;
     animation-name: mymove;
     animation-duration: 2s;
@@ -43,4 +43,14 @@
     to {
         left: 200px;
     }
+}
+
+.footer {
+
+    margin: 0;
+    height: 200px;
+    padding-top: 30px;
+    background-color: rgb(77, 167, 129);
+
+
 }
