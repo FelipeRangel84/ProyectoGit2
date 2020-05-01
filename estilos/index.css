@@ -19,6 +19,7 @@ h1 {
 p {
     margin: 30px 0;
 }
+
 /* Container */
 .container {
     margin: auto;
@@ -27,6 +28,7 @@ p {
     padding: 0 20px;
 
 }
+
 /*  NavBar */
 #navbar {
     background: #009999;
@@ -78,6 +80,7 @@ p {
     padding-bottom: 10px;
 
 }
+
 /* Image Animation */
 .heading {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -92,50 +95,4 @@ p {
     animation-duration: 4s;
     animation-iteration-count: 3;
 
-}
-
-@keyframes ball-move {
-
-    0% {
-        background-image: url('imagenes/background.jpg');
-        background-color: #000000;
-        left: 0px;
-        top: 0px;
-    }
-
-    25% {
-        background-image: url('./imagenes/background.jpg');
-        background-color: #404040;
-        left: 200px;
-        top: 0px;
-    }
-
-    50% {
-        background-image: url('./imagenes/background.jpg');
-        background-color: #808080;
-        left: 200px;
-        top: 200px
-    }
-
-    75% {
-        background-image: url('./imagenes/background.jpg');
-        background-color: #bfbfbf;
-        left: 0px;
-        top: 20px;
-    }
-
-    100% {
-        background-image: url('./imagenes/background.jpg');
-        background-color: #bfbfbf;
-        left: 0px;
-        top: 0px;
-    }
-}
-
-.container-footer {
-    background: #2eb8b8;
-    text-align: center;
-    color: #333333;
-    margin: 0;
-    padding: 5px;
 }
